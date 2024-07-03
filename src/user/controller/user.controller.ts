@@ -20,4 +20,4 @@ export class UserController {
     const accessToken = await this.iUserService.signIn(email, password);
     return { access_token: accessToken };
   }
-} 
+}
