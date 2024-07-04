@@ -6,4 +6,3 @@ export interface IUserService {
     findOne: (email: string, password: string) => Promise<any>
     signIn: (email: string, password: string) => Promise<string>;
 }
-

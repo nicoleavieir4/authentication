@@ -4,7 +4,6 @@ import { IUserRepository, USER_REPOSITORY } from '../interfaces/iuser.repository
 import { IUserService } from '../interfaces/iuser.service';
 import { decodePassword, encodePassword } from 'src/core/utils/bcrypt';
 import { JwtService } from '@nestjs/jwt';
-import * as bcrypt from 'bcrypt';
 
 @Injectable()
 export class UserService implements IUserService {
